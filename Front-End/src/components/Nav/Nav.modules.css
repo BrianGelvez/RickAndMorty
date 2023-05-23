@@ -1,0 +1,26 @@
+.Nav {
+    background-color: rgba(229, 255, 0, 0.178);
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.botones {
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: font-size 0.2s;
+}
+
+.botones:hover {
+    transform: scale(1.15);
+}

@@ -1,0 +1,25 @@
+.bar {
+  width: 30%;
+  height: 5rem;
+  background-color: rgba(0, 0, 0, 0.63);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchInput {
+  width: 40%;
+  border: 0px;
+  border-radius: 10px 0px 0px 10px;
+  background-color: #e0e0e0;
+  height: 3rem;
+}
+
+.searchButton {
+  border: 0px;
+  border-radius: 0px 10px 10px 0px;
+  background-color: #e9ec137a;
+  height: 3rem;
+  color: #e0e0e0;
+}

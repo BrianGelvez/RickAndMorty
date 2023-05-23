@@ -1,0 +1,11 @@
+.cardsConteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 93%;
+    margin: auto;
+    background-color: rgba(229, 255, 0, 0);
+    padding: 2em;
+    border-radius: 15px;
+    
+}
