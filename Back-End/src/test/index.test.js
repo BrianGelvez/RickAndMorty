@@ -37,7 +37,6 @@ describe('Test de RUTAS', () => {
 });
 
 
-
 describe('GET /rickandmorty/login', () => {
   const access = { access: true };
 
@@ -52,7 +51,6 @@ describe('GET /rickandmorty/login', () => {
     expect(response.body).toEqual(access);
   });
 });
-
 
 
 describe('POST /rickandmorty/fav', () => {
@@ -70,7 +68,6 @@ describe('POST /rickandmorty/fav', () => {
     expect(response.body.length).toBe(2);
   })
 });
-
 
 
 describe("DELETE /rickandmorty/fav/:id", () => {
