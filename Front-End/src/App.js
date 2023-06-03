@@ -12,10 +12,6 @@ import Favorites from './components/Favorites/Favorites';
 
 function App() {
 
-   // const API_KEY = '1de4d3f9898f.14b961fccd5be4db6d13'
-   // const EMAIL = "brian@gmail.com";
-   // const PASSWORD = "123456789"
-
    const [characters, setCharacters] = useState([]);
    const {pathname} = useLocation();
    const [access, setAccess] = useState(false);
@@ -41,7 +37,6 @@ function App() {
       }
     };
     
-   
 
     const onSearch = async (id) => {
       if (characters.find((char) => char.id === id)) {
@@ -54,8 +49,7 @@ function App() {
           setCharacters((oldChars) => [...oldChars, data]);
         }
       } catch (err) {
-        console.log(err);
-        console.log("Hubo un error");
+        
       }
     };
 
