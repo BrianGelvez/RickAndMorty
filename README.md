@@ -1,2 +1,2 @@
 # rickandmorty
-primer realizado durante el bootcamp de Henry
+realizado durante el bootcamp de Henr
